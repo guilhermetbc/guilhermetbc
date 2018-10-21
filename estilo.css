@@ -79,8 +79,14 @@ ul.topnav li.right {
 }
 
 .content h2{
+	font-family: 'Audiowide';
+	font-size: 22px;
 	text-align: center;
 	padding: 10px;
+}
+
+.content h3{
+	padding: 10px 0;
 }
 
 .content .texto{
@@ -128,9 +134,71 @@ a:active {
 	height: 80px;
 }
 
-#tchuss{
+.academico li, .profissional li, .idiomas li{
+	font-size: 20px;
+	margin-left: 50px;
+	padding-bottom: 10px;
+}
+
+.academico p, .profissional p, .idiomas p{
+	font-size: 18px;
+	margin-left: 70px;
+	padding-bottom: 10px;
+}
+
+.academico li {
+	list-style-image: url(imagens/graduate-cap.png);
+}
+
+.profissional li {
+	list-style-image: url(imagens/portfolio.png);
+}
+
+.idiomas li {
+	list-style-image: url(imagens/language.png);
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #38393a;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 15px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#botoes{
 	text-align: center;
-	font-weight: bold; 
-	font-family: 'Audiowide';
-	font-size: 22px;
+	margin-bottom: 50px;
 }
