@@ -8,7 +8,8 @@ body{
 	margin: auto;
 	background-image: url("imagens/background-2.jpg");
 	background-size: 100%;
-	background-repeat: no-repeat;
+	background-repeat: round;
+	background-attachment: fixed;
 	color: white;
 }
 
@@ -98,7 +99,7 @@ ul.topnav li.right {
 
 #creditos{
 	text-align: right;
-	padding-right: 100px;
+	padding-right: 20%;
 }
 
 a:link {
@@ -119,4 +120,17 @@ a:hover {
 a:active {
 	color: #a8810d;
     text-decoration: none;
+}
+
+.spotify {
+	margin: 10px auto;
+	width: 50%;
+	height: 80px;
+}
+
+#tchuss{
+	text-align: center;
+	font-weight: bold; 
+	font-family: 'Audiowide';
+	font-size: 22px;
 }
