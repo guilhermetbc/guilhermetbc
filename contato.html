@@ -45,6 +45,18 @@
   		<div id="googleMap" style="width:100%;height:400px;"></div>
 
 	</div>
+	<footer>
+		<a href="github.com/guilhermetbc"><img src="imagens/github.png"></a>
+		<a href="https://open.spotify.com/user/12184009983?si=miHamzD9T9OqdJoN82ZTDQ"><img src="imagens/spotify.png"></a>
+		<a href="twitter.com/_guilhermetbc"><img src="imagens/twitter.png"></a>
+		<a href="intagram.com/guilhermetbc"><img src="imagens/instagram.png"></a>
+		<a href="facebook.com/guilhermetbc"><img src="imagens/facebook.png"></a>
+		<div class="copyright">
+			Todos os direitos reservados © <br>
+			guilhermetbc @ 2018
+		</div>
+	</footer>
+</body>
 
 <script>
 	function myMap() {
@@ -55,5 +67,7 @@
 	var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 	}
 </script>
-</body>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
 </html>

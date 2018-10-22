@@ -355,3 +355,22 @@ input[type=reset] {
 input[type=submit]:hover {
     background-color: #45a049;
 }
+
+footer {
+  background-color: #38393a;
+  height: 30px;
+  padding: 20px;
+  width: 90%
+}
+
+footer img {
+  float: right;
+  margin-left: 5px;
+}
+
+.copyright{
+  float: left;
+  text-align: left;
+  color:  gray;
+  font-size: 10px;
+}
