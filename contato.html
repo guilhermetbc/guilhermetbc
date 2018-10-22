@@ -21,5 +21,39 @@
 			</ul>
 		</div>	
 	</header>
+	<div class="content">
+		<h2> Entre em contato:</h2>
+
+		<form action="mailto:guilhermetadeubc@outlook.com" method="post">
+
+	    <label for="fname">Nome</label>
+	    <input type="text" id="fname" name="firstname" placeholder="Seu nome">
+
+	    <label for="lname">Sobrenome</label>
+	    <input type="text" id="lname" name="lastname" placeholder="Seu sobrenome">
+
+	    <label for="subject">Assunto</label>
+	    <textarea id="subject" name="subject" placeholder="Digite aqui" style="height:200px"></textarea>
+	    <div class="botoes">
+	    	<input type="submit" value="Enviar">
+			<input type="reset" value="Limpar">
+	    </div>
+  		</form>
+
+  		<h2>Ou me encontre em:</h2>
+
+  		<div id="googleMap" style="width:100%;height:400px;"></div>
+
+	</div>
+
+<script>
+	function myMap() {
+	var mapProp= {
+	    center:new google.maps.LatLng(51.508742,-0.120850),
+	    zoom:5,
+	};
+	var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+	}
+</script>
 </body>
 </html>
