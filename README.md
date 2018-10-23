@@ -3,6 +3,7 @@
 Penalidades:
 - Responsividade
 - Expansão de imagem funcionando apenas no primeiro projeto
+- API do Google Maps não pega o local do visitante
 
 
 Itens extras:
